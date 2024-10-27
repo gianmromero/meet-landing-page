@@ -301,7 +301,7 @@ body {
     justify-self: center;
     width: 193px;
     height: 56px;
-    border-radius: 29px;
+    border-radius: 1.8125em;
     border-style: none;
     background-color: #855FB1;
     font-family: 'Red Hat Display', sans-serif;
@@ -324,12 +324,12 @@ body {
     }
     .header__title {
         font-size: 4rem;
-        padding-right: 155px;
-        padding-left: 155px;
+        padding-right: 9.6875em;
+        padding-left: 9.6875em;
     }
     .header__description {
-        padding-right: 125px;
-        padding-left: 125px;
+        padding-right: 7.8125em;
+        padding-left: 7.8125em;
     }
     .header__buttons {
         grid-area: header-buttons;
@@ -354,19 +354,19 @@ body {
         height: 160px;
     }
     .main-content__heading {
-        padding-left: 132px;
-        padding-right: 132px;
+        padding-left: 8.25em;
+        padding-right: 8.25em;
     }
     .main-content__text {
-        padding-left: 132px;
-        padding-right: 125px;
+        padding-left: 8.25em;
+        padding-right: 7.8125em;
     }
     .footer__title {
         padding-top: 2em;
     }
     .footer__description {
-        padding-left: 132px;
-        padding-right: 132px;
+        padding-left: 8.25em;
+        padding-right: 8.25em;
     }
     .footer {
         background: 
