@@ -10,32 +10,44 @@
   <title>Frontend Mentor | Meet landing page</title>
 </head>
 <body>
-  <header class="header">
-    <img class="header__logo" src="assets/logo.svg" alt="logo image word meet with two circles">
-    <img class="header__hero-image" src="assets/tablet/image-hero.png" alt="hero image circles with faces in them">
-  </header>
+  <header class="header"> <!--Header-->
+    <img class="header__logo" src="assets/logo.svg" alt="logo image word meet with two circles"> <!--Logo-->
+    <div class="header__hero-image"></div> 
+      <div class="header__hero-image--left"></div> <!--Left Image-->
+      <div class="header__content"> <!--Content-->
+        <h1 class="header__title">Group Chat for Everyone</h1>
+        <p class="header__description">Meet makes it easy to connect with others face-to-face 
+          virtually and collaborate across any device.</p>
+          <div class="header__buttons"> <!--Buttons-->
+            <button class="header__button header__button--download">Download <span class="version">v1.3</span></button>
+            <button class="header__button header__button--info">What is it?</button>
+          </div> <!--End Buttons-->
+      </div> <!--End Content-->
+    <div class="header__hero-image--right"></div> <!--Right Image-->
+  </header> <!--End Header-->
   <main class="main-content">
-    <h1 class="main-content__title">Group Chat for Everyone</h1>
-    <p class="main-content__description">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-    <button class="main-content__button main-content__button--download">Download v1.3</button>
-    <button class="main-content__button main-content__button--info">What is it?</button>
-    <div class="main-content__section main-content__section--number">01</div>
+    <div class="main-content__section main-content__section--number01">
+      <span class="number">01</span>
+    </div>
     <div class="main-content__images">
       <img class="main-content__image" src="assets/desktop/image-woman-in-videocall.jpg" alt="woman in video call">
       <img class="main-content__image" src="assets/desktop/image-women-videochatting.jpg" alt="women video chatting">
       <img class="main-content__image" src="assets/desktop/image-men-in-meeting.jpg" alt="men in meeting">
       <img class="main-content__image" src="assets/desktop/image-man-texting.jpg" alt="man texting">
     </div>
-    <p class="main-content__subtitle" >Built for modern use</p>
+    <p class="main-content__subtitle" >BUILT FOR MODERN USE</p>
     <h2 class="main-content__heading">Smarter meetings, all in one place</h2>
     <p class="main-content__text">Send messages, share files, show your screen, and record your meetings — all in one 
       workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
-    <div class="main-content__section main-content__section--number">02</div>
+    
   </main>
   <footer class="footer">
+    <div class="main-content__section main-content__section--number02">
+      <span class="number">02</span>
+    </div>
     <h3 class="footer__title">Experience more together</h3>
     <p class="footer__description">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-    <button class="footer__button">Download v1.3</button>
+    <button class="footer__button">Download <span class="version-footer">v1.3</span></button>
   </footer>
 </body>
 </html>
