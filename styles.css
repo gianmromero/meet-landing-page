@@ -49,7 +49,7 @@ body {
     grid-area: header-hero;
     width: 100%;
     height: 16vh;
-    background: url('assets/tablet/image-hero.png');
+    background: url('starter-code/assets/tablet/image-hero.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +66,6 @@ body {
     color: #28283D;
     padding-top: 1em;
     padding-bottom: 1.5em;
-    
 }
 .header__description {
     grid-area: header-description;
@@ -244,7 +243,7 @@ body {
 
     background: 
         linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), /* Background color with transparency */
-        url('assets/mobile/image-footer.jpg'); /* Background image */
+        url('starter-code/assets/mobile/image-footer.jpg'); /* Background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -371,7 +370,7 @@ body {
     .footer {
         background: 
         linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), /* Background color with transparency */
-        url('assets/tablet/image-footer.jpg'); /* Background image */
+        url('starter-code/assets/tablet/image-footer.jpg'); /* Background image */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -411,7 +410,7 @@ body {
         grid-area: left;
         width: 394px;
         height: 303px;
-        background: url('assets/desktop/image-hero-left.png');
+        background: url('starter-code/assets/desktop/image-hero-left.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -442,7 +441,7 @@ body {
         grid-area: right;
         width: 394px;
         height: 303px;
-        background: url('assets/desktop/image-hero-right.png');
+        background: url('starter-code/assets/desktop/image-hero-right.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
